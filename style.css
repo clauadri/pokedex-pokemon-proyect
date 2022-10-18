@@ -1,0 +1,221 @@
+
+body{
+    margin: 0px;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.img-logo{
+    margin-top: 30px;
+    width: 600px;
+}
+.search {
+    margin: 5px 0px;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    width: 500px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    outline: 0;
+    font-size: 24px;
+    color: grey;
+    padding: 7px 0;
+    background: transparent;
+   
+}
+.container-button{
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn{
+  align-items: center;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-flex;
+  min-height: 40px;
+  min-width: 0px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  vertical-align: middle; 
+}
+.btn-grass{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Pok%C3%A9mon_Grass_Type_Icon.svg/40px-Pok%C3%A9mon_Grass_Type_Icon.svg.png');
+}
+.btn-poison{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Pok%C3%A9mon_Poison_Type_Icon.svg/40px-Pok%C3%A9mon_Poison_Type_Icon.svg.png'); 
+}
+.btn-fire{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Pok%C3%A9mon_Fire_Type_Icon.svg/40px-Pok%C3%A9mon_Fire_Type_Icon.svg.png');
+}
+.btn-flying{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pok%C3%A9mon_Flying_Type_Icon.svg/40px-Pok%C3%A9mon_Flying_Type_Icon.svg.png');
+}
+.btn-water{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Pok%C3%A9mon_Water_Type_Icon.svg/40px-Pok%C3%A9mon_Water_Type_Icon.svg.png');
+}
+.btn-bug{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Pok%C3%A9mon_Bug_Type_Icon.svg/40px-Pok%C3%A9mon_Bug_Type_Icon.svg.png');
+}
+.btn-normal{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Pok%C3%A9mon_Normal_Type_Icon.svg/40px-Pok%C3%A9mon_Normal_Type_Icon.svg.png');
+}
+.btn-electric{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Pok%C3%A9mon_Electric_Type_Icon.svg/40px-Pok%C3%A9mon_Electric_Type_Icon.svg.png');
+}
+.btn-ground{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Pok%C3%A9mon_Ground_Type_Icon.svg/40px-Pok%C3%A9mon_Ground_Type_Icon.svg.png');
+}
+.btn-fairy{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pok%C3%A9mon_Fairy_Type_Icon.svg/40px-Pok%C3%A9mon_Fairy_Type_Icon.svg.png');
+}
+.btn-fighting{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Pok%C3%A9mon_Fighting_Type_Icon.svg/40px-Pok%C3%A9mon_Fighting_Type_Icon.svg.png');
+}
+.btn-psychic{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Pok%C3%A9mon_Psychic_Type_Icon.svg/40px-Pok%C3%A9mon_Psychic_Type_Icon.svg.png');
+}
+.btn-rock{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Pok%C3%A9mon_Rock_Type_Icon.svg/40px-Pok%C3%A9mon_Rock_Type_Icon.svg.png');
+}
+.btn-steel{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Pok%C3%A9mon_Steel_Type_Icon.svg/40px-Pok%C3%A9mon_Steel_Type_Icon.svg.png');
+}
+.btn-ice{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Pok%C3%A9mon_Ice_Type_Icon.svg/40px-Pok%C3%A9mon_Ice_Type_Icon.svg.png');
+}
+.btn-ghost{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Pok%C3%A9mon_Ghost_Type_Icon.svg/40px-Pok%C3%A9mon_Ghost_Type_Icon.svg.png');
+}
+.btn-dragon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Pok%C3%A9mon_Dragon_Type_Icon.svg/40px-Pok%C3%A9mon_Dragon_Type_Icon.svg.png');
+}
+.background-img{
+    min-height: 1100px;
+    background-image: url(./assets/wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img-types{
+    display: flex;
+}
+.img-types > p{
+    margin: 5px;
+}
+.img-type{
+    width: 30px;
+    height: 30px;
+}
+.container-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.container-pokemon{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.id-class{
+    margin-top: 0px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: gray;
+}
+.card > img{
+    width: 100px;
+    height: 100px;
+}
+.card > h3{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.paraf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.paraf > p{
+    margin: 5px 0px;
+}
+.filtro{
+    display: none;
+}
+h5{
+    margin: 5px 0px;
+    font-size: 16px;
+}
+.p-abilities{
+    padding: 3px;
+    text-transform: capitalize;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    font-style: italic;
+}
+/* flip card start */
+.flip-card {  
+    width: 220px;
+    height: 400px;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px; 
+    box-shadow: 2px 2px 15px -1px rgba(224,224,224,0.2);
+    background-color: #e9e8e8;
+} 
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(-180deg);
+} 
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    background-color: #e9e8e8;
+    border-radius: 10px;
+    color: black;
+}
+.flip-card-back {
+    background-color: #e9e8e8;
+    border-radius: 10px;
+    color: black;
+    transform: rotateY(180deg);
+}
+.p-cards-back{
+    
+    text-transform: capitalize;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: beige;
+    font-style: italic;
+
+}
